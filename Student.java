@@ -25,6 +25,10 @@ public class Student {
 		public void setMarks(double marks) { this.marks = marks; }
 	
 	
+		@Override
+    public String toString() {
+        return "PRN: " + prn + ", Name: " + name + ", DOB: " + dob + ", Marks: " + marks;
+    }
 
 
 
